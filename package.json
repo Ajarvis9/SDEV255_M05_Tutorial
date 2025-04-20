@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "npm run your-build-script", 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "next": "15.3.1",
@@ -17,5 +17,6 @@
     "@tailwindcss/postcss": "^4",
     "gh-pages": "^6.3.0",
     "tailwindcss": "^4"
-  }
+  },
+  "homepage": "https://ajarvis9.github.io/SDEV255_M05_Tutorial"
 }
