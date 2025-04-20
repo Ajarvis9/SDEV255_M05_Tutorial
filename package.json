@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "npm run your-build-script", 
+    "build": "npm run next-react-project", 
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
 
